@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.accaunt_img {
+  width: 50%;
+  height: 100vh;
+  background-image: url(/css/image/image\ 1.png);
+  background-repeat: no-repeat;
+}
+.login-to_your-accaunt {
+  margin: auto;
+}
+.login_accaunt_title {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2d3748;
+}
+.login_accaunt_desc {
+  width: 292px;
+  height: 35px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #1a202c;
+}
+.pass {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding-left: 10px;
+  bottom: 62.79%;
+  width: 350px;
+  height: 50px;
+
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+label{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.title {
+  display: flex;
+  padding-top: 28px;
+}
+.remember_me{
+    margin-left: 6px;
+}
+.pasword_img:hover {
+  background-color: #0c58da;
+}
+.forget_password {
+  margin-left: 119px;
+
+  text-decoration: none;
+}
+
+.logotib{
+    width: 347px;
+    height: 50px;
+  margin-top: 42px;
+    background: #04C45C;
+border-radius: 5px;
+}
+.login_now{
+    padding-top: 15px;
+    padding-left: 70px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.logotib_google{
+    width: 347px;
+    height: 50px;
+    background: #2D3748;
+border-radius: 5px;
+}
+.login_now_google{
+     align-items: center;
+    margin-top: 15px;
+    padding-top: 8px;
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.google_img{
+   padding-left: 60px;
+   padding-right: 10px;
+   
+}
+.login_now_google{
+    align-items: center;
+}
+.link_foter{
+    display: flex;
+    margin-top: 162px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.join_free{
+    text-decoration: none;
+    color: #006dfa;
+}
